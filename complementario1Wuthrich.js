@@ -1,8 +1,5 @@
-let pregunta = prompt("¿Eres Fan de Hasbulla Y/N?")
-let i 
-for (let i  = 1; i<=3; i ++) {
-    alert("seguro?");
-    alert("deveritas?");
-    alert("Bueno, te creo... bienvenido a mi pagina");
-    break;
-}
+let testeoConsola = parseInt(prompt("Cuantos numeros queres que se escriban en la consola?"))
+
+for(let i = 0; i < testeoConsola; i++){
+    console.log(i)
+};
